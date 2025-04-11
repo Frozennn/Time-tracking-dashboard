@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <main>
+      <article class="article-1 article border-radius-sm">
+        <div class="article-1-main-content padding-sm border-radius-sm">
+          <div class="img-container">
+            <img
+              class="face-image"
+              src="images/image-jeremy.png"
+              alt="Jeremy"
+            />
+          </div>
+          <div class="article-1-text-wrapper">
+            <p class="article-1-text">Report for</p>
+            <h1 class="main-heading">Jeremy Robson</h1>
+          </div>
+        </div>
+        <ul class="list padding-sm">
+          <li class="list-item" data-period="daily">Daily</li>
+          <li class="list-item" data-period="weekly">Weekly</li>
+          <li class="list-item" data-period="monthly">Monthly</li>
+        </ul>
+      </article>
+
+      <article class="article article-work border-radius-sm" data-title="Work">
+        <div class="decoration-container">
+          <img src="images/icon-work.svg" alt="" />
+        </div>
+        <div class="article-text-container padding-sm border-radius-sm">
+          <div class="flex space-between">
+            <p>Work</p>
+            <div>
+              <img src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <h3 class="hours-title">32hrs</h3>
+          <p class="last-week-text">Last Week - 36hrs</p>
+        </div>
+      </article>
+
+      <article class="article article-play border-radius-sm" data-title="Play">
+        <div class="decoration-container">
+          <img src="images/icon-play.svg" alt="" />
+        </div>
+        <div class="article-text-container padding-sm border-radius-sm">
+          <div class="flex space-between">
+            <p>Play</p>
+            <div>
+              <img src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <h3 class="hours-title">10hrs</h3>
+          <p class="last-week-text">Last Week - 8hrs</p>
+        </div>
+      </article>
+
+      <article
+        class="article article-study border-radius-sm"
+        data-title="Study"
+      >
+        <div class="decoration-container">
+          <img src="images/icon-study.svg" alt="" />
+        </div>
+        <div class="article-text-container padding-sm border-radius-sm">
+          <div class="flex space-between">
+            <p>Study</p>
+            <div>
+              <img src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <h3 class="hours-title">4hrs</h3>
+          <p class="last-week-text">Last Week - 7hrs</p>
+        </div>
+      </article>
+
+      <article
+        class="article article-exercise border-radius-sm"
+        data-title="Exercise"
+      >
+        <div class="decoration-container">
+          <img src="images/icon-exercise.svg" alt="" />
+        </div>
+        <div class="article-text-container padding-sm border-radius-sm">
+          <div class="flex space-between">
+            <p>Exercise</p>
+            <div>
+              <img src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <h3 class="hours-title">4hrs</h3>
+          <p class="last-week-text">Last Week - 5hrs</p>
+        </div>
+      </article>
+
+      <article
+        class="article article-social border-radius-sm"
+        data-title="Social"
+      >
+        <div class="decoration-container">
+          <img src="images/icon-social.svg" alt="" />
+        </div>
+        <div class="article-text-container padding-sm border-radius-sm">
+          <div class="flex space-between">
+            <p>Social</p>
+            <div>
+              <img src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <h3 class="hours-title">5hrs</h3>
+          <p class="last-week-text">Last Week - 10hrs</p>
+        </div>
+      </article>
+
+      <article
+        class="article article-self-care border-radius-sm"
+        data-title="Self Care"
+      >
+        <div class="decoration-container">
+          <img src="images/icon-self-care.svg" alt="" />
+        </div>
+        <div class="article-text-container padding-sm border-radius-sm">
+          <div class="flex space-between">
+            <p>Self care</p>
+            <div>
+              <img src="images/icon-ellipsis.svg" alt="" />
+            </div>
+          </div>
+          <h3 class="hours-title">2hrs</h3>
+          <p class="last-week-text">Last Week - 2hrs</p>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

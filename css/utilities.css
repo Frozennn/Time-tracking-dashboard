@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.padding-sm {
+  padding: 2rem;
+}
+
+.border-radius-sm {
+  border-radius: 1.5rem;
+}
+
+.list-item.active {
+  color: var(--Navy-200);
+}

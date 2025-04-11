@@ -1,0 +1,36 @@
+/* 1200px */
+@media screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  body {
+    padding: 2rem 0;
+  }
+
+  main {
+    display: grid;
+    gap: 2rem;
+
+    grid-template-areas:
+      "one one"
+      "two three"
+      "four five"
+      "six seven";
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  main {
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five"
+      "six"
+      "seven";
+  }
+}
