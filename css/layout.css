@@ -5,11 +5,13 @@ body {
   justify-content: center;
   background-color: var(--Navy-950);
   color: var(--White);
+  padding: 2rem;
 }
 
 main {
   display: grid;
   gap: 2rem;
+  grid-auto-columns: 1fr;
   grid-template-areas:
     "one two three four"
     "one five six seven";
